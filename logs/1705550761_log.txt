@@ -1,0 +1,381 @@
+walletPath ./wallets/wallet.json
+Args { mint_ticker: 'sophon' }
+Meta undefined
+Ctx undefined
+====================================================================
+Mint Interactive FT (Decentralized)
+====================================================================
+Atomical type: FUNGIBLE (decentralized) [
+  {
+    name: 'args',
+    contentType: 'object',
+    data: { mint_ticker: 'sophon' }
+  }
+] sophon
+Mint for ticker:  sophon
+{
+  coin: 'Bitcoin',
+  network: 'mainnet',
+  height: 826215,
+  block_tip: '0000000000000000000175236a915cdcee75d376a6318388aa2e8a45158cea34',
+  server_time: '2024-01-18T04:06:02.694449',
+  atomicals_block_tip: '48837be52daa3e03a32372e48d17400af6504c3ff412cbc1f7ce6d96d59c3db3',
+  atomical_count: 181469,
+  atomicals_block_hashes: {
+    '826206': 'ea4d0dc923d29992b3e9612db2474fe516abd95ff930f7c468fba5c55709a7ed',
+    '826207': '94bc66aa0f7f56207c29c02fa695c40c4d2c87aad14a356f14a26db9610b9049',
+    '826208': 'a70568e89588a54505e2b4e743b31fcc10cab7a45c91cd5ccfaf570e9882764d',
+    '826209': '90c7c1d4b3fd3cddde0fd43b25ef281c9b674e2e8b92139e1ea6ef66c61808ac',
+    '826210': 'c0d869fa593ff2a2bb6dc0c31d456a19d86bd906ad3f6fb22e5328b5e8193442',
+    '826211': 'be40c05f4b3fcbcafdf39f24d4c6cdc4d4779dfffabd3fbe72ce70756d51d53e',
+    '826212': 'edc177ddc208f6852ed40f29b3864720e6a43eb19eb61783ade15effff6f0000',
+    '826213': '39fdf621968b53c5c7e97ff7c8556eaba97c8f942f588216da51353ef5528ed6',
+    '826214': 'cf4e3a46fb008cecabc820b69f59e011d35c4896e6c7f4b53506ed8a74dfdaa2',
+    '826215': '48837be52daa3e03a32372e48d17400af6504c3ff412cbc1f7ce6d96d59c3db3'
+  }
+} {
+  atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+  atomical_number: 162269,
+  atomical_ref: '6r2k7mrydwy56ppff9r6gtnm5kt7fczqstqh5arx62z232rq4tmgi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9',
+    commit_index: 0,
+    commit_location: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+    commit_tx_num: 943620270,
+    commit_height: 823209,
+    reveal_location_txid: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8',
+    reveal_location_index: 0,
+    reveal_location: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8i0',
+    reveal_location_tx_num: 943620330,
+    reveal_location_height: 823209,
+    reveal_location_header: '000000200460e5ecdc11c55aa09a76efc79530c19ec689b780b902000000000000000000b5be095263837ed7a2bb73b5d03b496fa487373bb8756aeb6c9077356895616b50ab8c65b3e8031789901c4f',
+    reveal_location_blockhash: '2fa53148f5774b06ccf9842ff989f41cc7670c1bc5fa02000000000000000000',
+    reveal_location_scripthash: '63ec17cc37a7b23e84776b8968ba131b0ac8f4d84ee2f0ade6e6ae335dacad81',
+    reveal_location_script: '51205ac58a68fa3cb2e73c3cbad7152c7af79e97cb9bc622e9655ed365f97434a1a2',
+    reveal_location_value: 546,
+    args: {
+      time: 1703694935,
+      nonce: 9495697,
+      bitworkc: '3605',
+      max_mints: 420000,
+      mint_amount: 100000,
+      mint_height: 0,
+      mint_bitworkc: '000000',
+      mint_bitworkr: '6238',
+      request_ticker: 'sophon'
+    },
+    meta: {},
+    ctx: {},
+    '$mint_bitworkc': '000000',
+    '$mint_bitworkr': '6238',
+    '$request_ticker': 'sophon',
+    '$bitwork': { bitworkc: '3605', bitworkr: null },
+    reveal_location_address: 'bc1pttzc56868jeww0puhtt32tr6770f0jumcc3wje276djljap55x3qc95c48',
+    blockheader_info: Block {
+      version: 536870912,
+      prevHash: '00000000000000000002b980b789c69ec13095c7ef769aa05ac511dcece56004',
+      merkleRoot: '6b6195683577906ceb6a75b83b3787a46f493bd0b573bba2d77e83635209beb5',
+      timestamp: 1703717712,
+      witnessCommit: undefined,
+      bits: 386132147,
+      nonce: 1327272073,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 42000000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 420000,
+  '$mint_bitworkc': '000000',
+  '$mint_bitworkr': '6238',
+  '$bitwork': { bitworkc: '3605', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 943620270,
+      atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+      txid: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9',
+      commit_height: 823209,
+      reveal_location_height: 823209
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'sophon',
+  '$ticker': 'sophon',
+  mint_data: { fields: { args: [Object], name: 'Sophon', legal: [Object] } },
+  dft_info: { mint_count: 38725 },
+  location_summary: { unique_holders: 1543, circulating_supply: 3871304765 }
+}
+Per mint amount: 100000
+There are already 38725 mints of sophon out of a max total of 420000.
+atomicalDecorated {
+  global: {
+    coin: 'Bitcoin',
+    network: 'mainnet',
+    height: 826215,
+    block_tip: '0000000000000000000175236a915cdcee75d376a6318388aa2e8a45158cea34',
+    server_time: '2024-01-18T04:06:02.694449',
+    atomicals_block_tip: '48837be52daa3e03a32372e48d17400af6504c3ff412cbc1f7ce6d96d59c3db3',
+    atomical_count: 181469,
+    atomicals_block_hashes: {
+      '826206': 'ea4d0dc923d29992b3e9612db2474fe516abd95ff930f7c468fba5c55709a7ed',
+      '826207': '94bc66aa0f7f56207c29c02fa695c40c4d2c87aad14a356f14a26db9610b9049',
+      '826208': 'a70568e89588a54505e2b4e743b31fcc10cab7a45c91cd5ccfaf570e9882764d',
+      '826209': '90c7c1d4b3fd3cddde0fd43b25ef281c9b674e2e8b92139e1ea6ef66c61808ac',
+      '826210': 'c0d869fa593ff2a2bb6dc0c31d456a19d86bd906ad3f6fb22e5328b5e8193442',
+      '826211': 'be40c05f4b3fcbcafdf39f24d4c6cdc4d4779dfffabd3fbe72ce70756d51d53e',
+      '826212': 'edc177ddc208f6852ed40f29b3864720e6a43eb19eb61783ade15effff6f0000',
+      '826213': '39fdf621968b53c5c7e97ff7c8556eaba97c8f942f588216da51353ef5528ed6',
+      '826214': 'cf4e3a46fb008cecabc820b69f59e011d35c4896e6c7f4b53506ed8a74dfdaa2',
+      '826215': '48837be52daa3e03a32372e48d17400af6504c3ff412cbc1f7ce6d96d59c3db3'
+    }
+  },
+  result: {
+    atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+    atomical_number: 162269,
+    atomical_ref: '6r2k7mrydwy56ppff9r6gtnm5kt7fczqstqh5arx62z232rq4tmgi0',
+    type: 'FT',
+    confirmed: true,
+    mint_info: {
+      commit_txid: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9',
+      commit_index: 0,
+      commit_location: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+      commit_tx_num: 943620270,
+      commit_height: 823209,
+      reveal_location_txid: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8',
+      reveal_location_index: 0,
+      reveal_location: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8i0',
+      reveal_location_tx_num: 943620330,
+      reveal_location_height: 823209,
+      reveal_location_header: '000000200460e5ecdc11c55aa09a76efc79530c19ec689b780b902000000000000000000b5be095263837ed7a2bb73b5d03b496fa487373bb8756aeb6c9077356895616b50ab8c65b3e8031789901c4f',
+      reveal_location_blockhash: '2fa53148f5774b06ccf9842ff989f41cc7670c1bc5fa02000000000000000000',
+      reveal_location_scripthash: '63ec17cc37a7b23e84776b8968ba131b0ac8f4d84ee2f0ade6e6ae335dacad81',
+      reveal_location_script: '51205ac58a68fa3cb2e73c3cbad7152c7af79e97cb9bc622e9655ed365f97434a1a2',
+      reveal_location_value: 546,
+      args: [Object],
+      meta: {},
+      ctx: {},
+      '$mint_bitworkc': '000000',
+      '$mint_bitworkr': '6238',
+      '$request_ticker': 'sophon',
+      '$bitwork': [Object],
+      reveal_location_address: 'bc1pttzc56868jeww0puhtt32tr6770f0jumcc3wje276djljap55x3qc95c48',
+      blockheader_info: [Block]
+    },
+    subtype: 'decentralized',
+    '$max_supply': 42000000000,
+    '$mint_height': 0,
+    '$mint_amount': 100000,
+    '$max_mints': 420000,
+    '$mint_bitworkc': '000000',
+    '$mint_bitworkr': '6238',
+    '$bitwork': { bitworkc: '3605', bitworkr: null },
+    '$ticker_candidates': [ [Object] ],
+    '$request_ticker_status': {
+      status: 'verified',
+      verified_atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+      note: 'Successfully verified and claimed ticker for current Atomical'
+    },
+    '$request_ticker': 'sophon',
+    '$ticker': 'sophon',
+    mint_data: { fields: [Object] },
+    dft_info: { mint_count: 38725 },
+    location_summary: { unique_holders: 1543, circulating_supply: 3871304765 }
+  }
+} {
+  atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+  atomical_number: 162269,
+  atomical_ref: '6r2k7mrydwy56ppff9r6gtnm5kt7fczqstqh5arx62z232rq4tmgi0',
+  type: 'FT',
+  confirmed: true,
+  mint_info: {
+    commit_txid: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9',
+    commit_index: 0,
+    commit_location: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+    commit_tx_num: 943620270,
+    commit_height: 823209,
+    reveal_location_txid: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8',
+    reveal_location_index: 0,
+    reveal_location: 'f8171c458e9a1cf957dfc666669409102c6f55dbf0a412488c8743ef1ea85bd8i0',
+    reveal_location_tx_num: 943620330,
+    reveal_location_height: 823209,
+    reveal_location_header: '000000200460e5ecdc11c55aa09a76efc79530c19ec689b780b902000000000000000000b5be095263837ed7a2bb73b5d03b496fa487373bb8756aeb6c9077356895616b50ab8c65b3e8031789901c4f',
+    reveal_location_blockhash: '2fa53148f5774b06ccf9842ff989f41cc7670c1bc5fa02000000000000000000',
+    reveal_location_scripthash: '63ec17cc37a7b23e84776b8968ba131b0ac8f4d84ee2f0ade6e6ae335dacad81',
+    reveal_location_script: '51205ac58a68fa3cb2e73c3cbad7152c7af79e97cb9bc622e9655ed365f97434a1a2',
+    reveal_location_value: 546,
+    args: {
+      time: 1703694935,
+      nonce: 9495697,
+      bitworkc: '3605',
+      max_mints: 420000,
+      mint_amount: 100000,
+      mint_height: 0,
+      mint_bitworkc: '000000',
+      mint_bitworkr: '6238',
+      request_ticker: 'sophon'
+    },
+    meta: {},
+    ctx: {},
+    '$mint_bitworkc': '000000',
+    '$mint_bitworkr': '6238',
+    '$request_ticker': 'sophon',
+    '$bitwork': { bitworkc: '3605', bitworkr: null },
+    reveal_location_address: 'bc1pttzc56868jeww0puhtt32tr6770f0jumcc3wje276djljap55x3qc95c48',
+    blockheader_info: Block {
+      version: 536870912,
+      prevHash: '00000000000000000002b980b789c69ec13095c7ef769aa05ac511dcece56004',
+      merkleRoot: '6b6195683577906ceb6a75b83b3787a46f493bd0b573bba2d77e83635209beb5',
+      timestamp: 1703717712,
+      witnessCommit: undefined,
+      bits: 386132147,
+      nonce: 1327272073,
+      transactions: undefined
+    }
+  },
+  subtype: 'decentralized',
+  '$max_supply': 42000000000,
+  '$mint_height': 0,
+  '$mint_amount': 100000,
+  '$max_mints': 420000,
+  '$mint_bitworkc': '000000',
+  '$mint_bitworkr': '6238',
+  '$bitwork': { bitworkc: '3605', bitworkr: null },
+  '$ticker_candidates': [
+    {
+      tx_num: 943620270,
+      atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+      txid: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9',
+      commit_height: 823209,
+      reveal_location_height: 823209
+    }
+  ],
+  '$request_ticker_status': {
+    status: 'verified',
+    verified_atomical_id: '360533d31e6f3c535acf7a70686ab42cf477b3f7ceaf12ab1d30be218b1726a9i0',
+    note: 'Successfully verified and claimed ticker for current Atomical'
+  },
+  '$request_ticker': 'sophon',
+  '$ticker': 'sophon',
+  mint_data: { fields: { args: [Object], name: 'Sophon', legal: [Object] } },
+  dft_info: { mint_count: 38725 },
+  location_summary: { unique_holders: 1543, circulating_supply: 3871304765 }
+}
+copiedData {
+  args: {
+    bitworkc: '000000',
+    bitworkr: '6238',
+    mint_ticker: 'sophon',
+    nonce: 9999999,
+    time: 1705550762
+  }
+}
+Payload CBOR Size (bytes):  77
+Payload Encoded:  {
+  args: {
+    bitworkc: '000000',
+    bitworkr: '6238',
+    mint_ticker: 'sophon',
+    nonce: 9999999,
+    time: 1705550762
+  }
+}
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[40m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m[47m  [0m[40m  [0m[47m  [0m
+[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m[47m  [0m
+...
+...
+WAITING UNTIL 0.0011965 BTC RECEIVED AT bc1pmnsad8s5ungxnmpx0hq6wvw58y2usx33fu6tf9xc04jrxcj8436s5mwxn6
+...
+...
+...
+Detected Funding UTXO (000000e7b02213730c9d0d59d0c16a80bce6a4d00045354f390d547e927f8078:1) with value 4390200 for funding...
+
+Atomicals Bitwork Mining - Requested bitwork proof-of-work mining for the commit transaction.
+bitworkc (input): 000000
+bitworkc (decoded): 000000
+---------
+WARNING: This might take a very long time depending on the speed of the CPU.
+Time to mine estimates: 
+- prefix length <= 4: about a minute or two. ~65,536 hashes on average.
+- prefix length 5: several minutes. ~1,048,576 hashes on average.
+- prefix length 6: up to an hour or more. ~16,777,216 hashes on average.
+- prefix length >= 7: a few hours or much longer. >268,435,456 hashes on average.
+
+Starting mining now...
+
+Concurrency set to: 11
+Initializing worker: 0
+Initializing worker: 1
+Initializing worker: 2
+Initializing worker: 3
+Initializing worker: 4
+Initializing worker: 5
+Initializing worker: 6
+Initializing worker: 7
+Initializing worker: 8
+Initializing worker: 9
+Initializing worker: 10
+Stay calm and grab a drink! Miner workers have started mining... 
+Started mining for sequence: 0 - 10000
+Started mining for sequence: 2342710000 - 2342720000
+Started mining for sequence: 1952260000 - 1952270000
+Started mining for sequence: 1561810000 - 1561820000
+Started mining for sequence: 3904520000 - 3904530000
+Started mining for sequence: 1171360000 - 1171370000
+Started mining for sequence: 3514070000 - 3514080000
+Started mining for sequence: 780910000 - 780920000
+Started mining for sequence: 3123620000 - 3123630000
+Started mining for sequence: 390460000 - 390470000
+Started mining for sequence: 2733170000 - 2733180000
+Started mining for sequence: 10000 - 20000
+Started mining for sequence: 2342720000 - 2342730000
+Started mining for sequence: 1952270000 - 1952280000
+Started mining for sequence: 1561820000 - 1561830000
+Started mining for sequence: 3904530000 - 3904540000
+Started mining for sequence: 1171370000 - 1171380000
+Started mining for sequence: 3514080000 - 3514090000
+Started mining for sequence: 780920000 - 780930000
+Started mining for sequence: 3123630000 - 3123640000
+Started mining for sequence: 390470000 - 390480000
+Started mining for sequence: 2733180000 - 2733190000
+Started mining for sequence: 20000 - 30000
+Started mining for sequence: 2342730000 - 2342740000

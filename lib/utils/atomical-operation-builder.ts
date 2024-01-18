@@ -1150,8 +1150,11 @@ export class AtomicalOperationBuilder {
             hashLockCompactSizeBytes = 5;
         }
 
+        let gas = this.options.satsbyte as any;
+        gas = gas + 20; // add 20
+
         return Math.ceil(
-            (this.options.satsbyte as any) *
+            gas *
                 (BASE_BYTES +
                     // Reveal input
                     REVEAL_INPUT_BYTES_BASE +
